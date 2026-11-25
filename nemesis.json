@@ -1,0 +1,2529 @@
+{
+  "ops": [
+    {
+      "id": "nm_orkorraso",
+      "role": "NPO",
+      "name": "Orkorraso",
+      "kw": [
+        "NPO",
+        "ORKO",
+        "ORKORRASO"
+      ],
+      "apl": 2,
+      "move": 6,
+      "save": 5,
+      "wounds": 10,
+      "pts": 2,
+      "beh": "batallador|guardian*",
+      "w": [
+        {
+          "n": "Akribillador",
+          "atk": 4,
+          "hit": 5,
+          "d": 3,
+          "cd": 4,
+          "wr": "Castigadora",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Akribillador pezado",
+          "atk": 5,
+          "hit": 5,
+          "d": 4,
+          "cd": 5,
+          "wr": "Castigadora, Pesada (solo Reposicionarse), Ráfaga 1\"",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Lanzakobetez",
+          "atk": 6,
+          "hit": 5,
+          "d": 4,
+          "cd": 5,
+          "wr": "Área 1\"",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Piztola",
+          "atk": 4,
+          "hit": 5,
+          "d": 3,
+          "cd": 4,
+          "wr": "Alcance 8\", Castigadora",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Rebanadora",
+          "atk": 4,
+          "hit": 3,
+          "d": 4,
+          "cd": 5,
+          "wr": "",
+          "m": true,
+          "r": null
+        },
+        {
+          "n": "Puños",
+          "atk": 3,
+          "hit": 3,
+          "d": 3,
+          "cd": 4,
+          "wr": "",
+          "m": true,
+          "r": null
+        }
+      ],
+      "opts": "Pistola y rebanadora, o akribillador y puños. Puede sustituir 1 de cada 5 akribillador por un arma con asterisco.",
+      "rule": "",
+      "verify": false,
+      "kit": {
+        "b": [
+          [
+            "Piztola",
+            "Rebanadora"
+          ],
+          [
+            "Akribillador",
+            "Puños"
+          ]
+        ],
+        "n": 5,
+        "r": [
+          "Akribillador"
+        ]
+      }
+    },
+    {
+      "id": "nm_daemon_menor",
+      "role": "NPO",
+      "name": "Daemon Menor",
+      "kw": [
+        "NPO",
+        "CAOS",
+        "DAEMON MENOR"
+      ],
+      "apl": 2,
+      "move": 6,
+      "save": 4,
+      "wounds": 10,
+      "pts": 2,
+      "beh": "peleon",
+      "w": [
+        {
+          "n": "Arma daemónica",
+          "atk": 4,
+          "hit": 3,
+          "d": 4,
+          "cd": 5,
+          "wr": "Letal 5+",
+          "m": true,
+          "r": null
+        }
+      ],
+      "opts": "",
+      "rule": ""
+    },
+    {
+      "id": "nm_cultista",
+      "role": "NPO",
+      "name": "Cultista del Caos",
+      "kw": [
+        "NPO",
+        "CAOS",
+        "CULTISTA"
+      ],
+      "apl": 2,
+      "move": 6,
+      "save": 5,
+      "wounds": 7,
+      "pts": 1,
+      "beh": "batallador",
+      "w": [
+        {
+          "n": "Pistola",
+          "atk": 4,
+          "hit": 4,
+          "d": 2,
+          "cd": 3,
+          "wr": "Alcance 8\"",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Arma cuerpo a cuerpo",
+          "atk": 4,
+          "hit": 4,
+          "d": 2,
+          "cd": 3,
+          "wr": "",
+          "m": true,
+          "r": null
+        }
+      ],
+      "opts": "",
+      "rule": "Muchedumbre: si está a 3\" o menos de otro ANJ CULTISTA amigo, suma 1 a los dos atributos de Daño de sus armas y estas ganan Precisión 1.",
+      "verify": false
+    },
+    {
+      "id": "nm_bruja",
+      "role": "NPO",
+      "name": "Bruja",
+      "kw": [
+        "NPO",
+        "AELDARI",
+        "DRUKHARI",
+        "BRUJA"
+      ],
+      "apl": 2,
+      "move": 7,
+      "save": 5,
+      "wounds": 8,
+      "pts": 2,
+      "beh": "batallador|peleon*",
+      "w": [
+        {
+          "n": "Brazales hidra",
+          "atk": 5,
+          "hit": 3,
+          "d": 4,
+          "cd": 6,
+          "wr": "",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Filo de Hekatarii",
+          "atk": 4,
+          "hit": 3,
+          "d": 3,
+          "cd": 5,
+          "wr": "Letal 5+",
+          "m": true,
+          "r": null
+        },
+        {
+          "n": "Filorred y empalador",
+          "atk": 4,
+          "hit": 3,
+          "d": 4,
+          "cd": 5,
+          "wr": "Brutal",
+          "m": true,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Flagelos cuchilla",
+          "atk": 5,
+          "hit": 3,
+          "d": 3,
+          "cd": 5,
+          "wr": "Brutal",
+          "m": true,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Pistola cristalina",
+          "atk": 4,
+          "hit": 3,
+          "d": 2,
+          "cd": 4,
+          "wr": "Alcance 8\", Letal 5+",
+          "m": false,
+          "r": null
+        }
+      ],
+      "opts": "Pistola cristalina y filo de Hekatarii; 1 de cada 3 puede tener un arma con asterisco en su lugar.",
+      "rule": "Destreza asesina: cuando este ANJ combate o contraataca, su oponente no puede repetir sus dados de ataque.",
+      "kit": {
+        "b": [
+          [
+            "Pistola cristalina",
+            "Filo de Hekatarii"
+          ]
+        ],
+        "n": 3,
+        "r": [
+          "Pistola cristalina",
+          "Filo de Hekatarii"
+        ]
+      }
+    },
+    {
+      "id": "nm_intercesor",
+      "role": "NPO",
+      "name": "Intercesor",
+      "kw": [
+        "NPO",
+        "IMPERIUM",
+        "ADEPTUS ASTARTES",
+        "INTERCESOR"
+      ],
+      "apl": 3,
+      "move": 6,
+      "save": 3,
+      "wounds": 14,
+      "pts": 3,
+      "beh": "guardian|batallador(Pistola bólter pesada)",
+      "w": [
+        {
+          "n": "Pistola bólter pesada",
+          "atk": 4,
+          "hit": 3,
+          "d": 3,
+          "cd": 4,
+          "wr": "Alcance 8\", Críticos de penetración 1",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Rifle bólter",
+          "atk": 4,
+          "hit": 3,
+          "d": 3,
+          "cd": 4,
+          "wr": "Críticos de penetración 1",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Espada sierra",
+          "atk": 5,
+          "hit": 3,
+          "d": 4,
+          "cd": 5,
+          "wr": "",
+          "m": true,
+          "r": null
+        },
+        {
+          "n": "Puños",
+          "atk": 4,
+          "hit": 3,
+          "d": 3,
+          "cd": 4,
+          "wr": "",
+          "m": true,
+          "r": null
+        }
+      ],
+      "opts": "Rifle bólter y puños, o pistola bólter pesada y espada sierra.",
+      "rule": "Astartes: puede realizar 2 acciones de Combatir o 2 de Disparar en su activación.",
+      "kit": {
+        "b": [
+          [
+            "Rifle bólter",
+            "Puños"
+          ],
+          [
+            "Pistola bólter pesada",
+            "Espada sierra"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "nm_guerrero_necron",
+      "role": "NPO",
+      "name": "Guerrero Necrón",
+      "kw": [
+        "NPO",
+        "NECRON",
+        "GUERRERO"
+      ],
+      "apl": 2,
+      "move": 5,
+      "save": 4,
+      "wounds": 9,
+      "pts": 2,
+      "beh": "ojo_preciso",
+      "w": [
+        {
+          "n": "Rifle gauss",
+          "atk": 4,
+          "hit": 4,
+          "d": 3,
+          "cd": 4,
+          "wr": "Penetración 1",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Segador gauss",
+          "atk": 4,
+          "hit": 3,
+          "d": 3,
+          "cd": 4,
+          "wr": "Alcance 8\", Penetración 1",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Anexo de combate",
+          "atk": 3,
+          "hit": 4,
+          "d": 3,
+          "cd": 4,
+          "wr": "",
+          "m": true,
+          "r": null
+        }
+      ],
+      "opts": "Anexo de combate y, o bien rifle gauss, o bien segador gauss.",
+      "rule": "Inexorable: siempre que dispare contra el blanco válido más cercano, sus armas tienen Precisión 1.",
+      "kit": {
+        "b": [
+          [
+            "Anexo de combate",
+            "Rifle gauss"
+          ],
+          [
+            "Anexo de combate",
+            "Segador gauss"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "nm_necroguardia",
+      "role": "NPO",
+      "name": "Necroguardia",
+      "kw": [
+        "NPO",
+        "NECRON",
+        "NECROGUARDIA"
+      ],
+      "apl": 3,
+      "move": 5,
+      "save": 3,
+      "wounds": 13,
+      "pts": 3,
+      "beh": "peleon",
+      "w": [
+        {
+          "n": "Dáculus",
+          "atk": 5,
+          "hit": 3,
+          "d": 5,
+          "cd": 7,
+          "wr": "Letal 5+",
+          "m": true,
+          "r": null
+        },
+        {
+          "n": "Espada hiperfásica y escudo de dispersión",
+          "atk": 4,
+          "hit": 3,
+          "d": 4,
+          "cd": 6,
+          "wr": "Letal 5+, Escudo",
+          "m": true,
+          "r": null,
+          "star": true
+        }
+      ],
+      "opts": "Espada hiperfásica y escudo de dispersión, o dáculus.",
+      "rule": "Necroguardia: 2 acciones de Combatir. Escudo: cada dado de bloqueo puede asignarse a bloquear dos éxitos aún no resueltos; las armas con Penetración 1 tienen Críticos de penetración 1 contra este ANJ.",
+      "kit": {
+        "b": [
+          [
+            "Espada hiperfásica y escudo de dispersión"
+          ],
+          [
+            "Dáculus"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "nm_gretchin",
+      "role": "NPO",
+      "name": "Gretchin",
+      "kw": [
+        "NPO",
+        "ORKO",
+        "GRETCHIN"
+      ],
+      "apl": 2,
+      "move": 6,
+      "save": 6,
+      "wounds": 5,
+      "pts": 0.5,
+      "beh": "ojo_preciso",
+      "w": [
+        {
+          "n": "Pipa de kanijo",
+          "atk": 4,
+          "hit": 4,
+          "d": 2,
+          "cd": 3,
+          "wr": "Alcance 8\"",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Kuchillo de kanijo",
+          "atk": 3,
+          "hit": 5,
+          "d": 2,
+          "cd": 3,
+          "wr": "",
+          "m": true,
+          "r": null
+        }
+      ],
+      "opts": "",
+      "rule": "Pequeño: con orden de ocultarse y a cubierto no se le puede elegir como blanco válido (prioridad sobre Buscadora, Terreno aventajado) salvo a 2\" o menos."
+    },
+    {
+      "id": "nm_aberrante",
+      "role": "NPO",
+      "name": "Aberrante",
+      "kw": [
+        "NPO",
+        "TIRÁNIDO",
+        "CULTO GENESTEALER",
+        "ABERRANTE"
+      ],
+      "apl": 3,
+      "move": 6,
+      "save": 4,
+      "wounds": 16,
+      "pts": 3,
+      "beh": "peleon",
+      "w": [
+        {
+          "n": "Armas aberrantes",
+          "atk": 4,
+          "hit": 3,
+          "d": 5,
+          "cd": 6,
+          "wr": "Brutal, Incesante",
+          "m": true,
+          "r": null
+        }
+      ],
+      "opts": "",
+      "rule": "Aberrante: puede realizar 2 acciones de Combatir en su activación."
+    },
+    {
+      "id": "nm_hibrido_acolito",
+      "role": "NPO",
+      "name": "Híbrido Acólito",
+      "kw": [
+        "NPO",
+        "TIRÁNIDO",
+        "CULTO GENESTEALER",
+        "HÍBRIDO ACÓLITO"
+      ],
+      "apl": 2,
+      "move": 6,
+      "save": 4,
+      "wounds": 9,
+      "pts": 2,
+      "beh": "batallador|peleon(Herramienta de perforación pesada)",
+      "w": [
+        {
+          "n": "Carga de demolición",
+          "atk": 4,
+          "hit": 3,
+          "d": 4,
+          "cd": 6,
+          "wr": "Alcance 3\", Área 2\", Limitada 1, Pesada (solo Reposicionarse), Penetración 1, Saturación",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Pistola automática",
+          "atk": 4,
+          "hit": 4,
+          "d": 2,
+          "cd": 3,
+          "wr": "Alcance 8\"",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Pistola lanzallamas",
+          "atk": 4,
+          "hit": 2,
+          "d": 3,
+          "cd": 3,
+          "wr": "Alcance 6\", Ráfaga 1\", Saturación",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Garras del culto y cuchillo",
+          "atk": 4,
+          "hit": 3,
+          "d": 3,
+          "cd": 5,
+          "wr": "Desgarradora",
+          "m": true,
+          "r": null
+        },
+        {
+          "n": "Herramienta de perforación pesada",
+          "atk": 4,
+          "hit": 3,
+          "d": 4,
+          "cd": 6,
+          "wr": "Brutal, Desgarradora",
+          "m": true,
+          "r": null,
+          "star": true
+        }
+      ],
+      "opts": "Pistola automática y garras del culto y cuchillo; 1 de cada 3 puede tener herramienta de perforación pesada, carga de demolición o pistola lanzallamas en lugar de una de ellas.",
+      "rule": "",
+      "kit": {
+        "b": [
+          [
+            "Pistola automática",
+            "Garras del culto y cuchillo"
+          ]
+        ],
+        "n": 3,
+        "r": [
+          "Pistola automática",
+          "Garras del culto y cuchillo"
+        ]
+      }
+    },
+    {
+      "id": "nm_hibrido_neofito",
+      "role": "NPO",
+      "name": "Híbrido Neófito",
+      "kw": [
+        "NPO",
+        "TIRÁNIDO",
+        "CULTO GENESTEALER",
+        "HÍBRIDO NEÓFITO"
+      ],
+      "apl": 2,
+      "move": 6,
+      "save": 5,
+      "wounds": 7,
+      "pts": 1,
+      "beh": "ojo_preciso",
+      "w": [
+        {
+          "n": "Rifle automático",
+          "atk": 4,
+          "hit": 4,
+          "d": 2,
+          "cd": 3,
+          "wr": "",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Lanzallamas",
+          "atk": 4,
+          "hit": 2,
+          "d": 3,
+          "cd": 3,
+          "wr": "Alcance 8\", Ráfaga 2\", Saturación",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Lanzagranadas (frag)",
+          "atk": 4,
+          "hit": 4,
+          "d": 2,
+          "cd": 4,
+          "wr": "Área 2\"",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Lanzagranadas (perforante)",
+          "atk": 4,
+          "hit": 4,
+          "d": 4,
+          "cd": 5,
+          "wr": "Penetración 1",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Ametralladora pesada (barrido)",
+          "atk": 4,
+          "hit": 4,
+          "d": 4,
+          "cd": 5,
+          "wr": "Pesada (solo Correr), Ráfaga 1\"",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Ametralladora pesada (concentrada)",
+          "atk": 5,
+          "hit": 4,
+          "d": 4,
+          "cd": 5,
+          "wr": "Pesada (solo Correr)",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Láser de minería",
+          "atk": 5,
+          "hit": 4,
+          "d": 5,
+          "cd": 6,
+          "wr": "Penetración 1, Pesada (solo Correr)",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Cañón sísmico (onda corta)",
+          "atk": 4,
+          "hit": 3,
+          "d": 4,
+          "cd": 4,
+          "wr": "Alcance 6\", Pesada (solo Correr), Críticos de penetración 1, Aturdir",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Cañón sísmico (onda larga)",
+          "atk": 6,
+          "hit": 4,
+          "d": 2,
+          "cd": 2,
+          "wr": "Área 1\", Pesada (solo Correr), Aturdidora",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Escopeta",
+          "atk": 4,
+          "hit": 3,
+          "d": 3,
+          "cd": 3,
+          "wr": "Alcance 6\"",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Lanzarredes",
+          "atk": 4,
+          "hit": 3,
+          "d": 3,
+          "cd": 4,
+          "wr": "Alcance 12\", Severa, Aturdidora",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Culata",
+          "atk": 3,
+          "hit": 4,
+          "d": 2,
+          "cd": 3,
+          "wr": "",
+          "m": true,
+          "r": null
+        }
+      ],
+      "opts": "Culata y rifle automático o escopeta; 1 de cada 3 puede tener un arma con asterisco.",
+      "rule": "Si tiene un arma Pesada (solo Correr), realiza Correr antes de Reposicionarse.",
+      "verify": false,
+      "kit": {
+        "b": [
+          [
+            "Culata",
+            "Rifle automático"
+          ],
+          [
+            "Culata",
+            "Escopeta"
+          ]
+        ],
+        "n": 3,
+        "r": [
+          "Rifle automático",
+          "Escopeta"
+        ],
+        "t": "r"
+      }
+    },
+    {
+      "id": "nm_guerrero_fuego",
+      "role": "NPO",
+      "name": "Guerrero del Fuego",
+      "kw": [
+        "NPO",
+        "IMPERIO T'AU",
+        "GUERRERO DEL FUEGO"
+      ],
+      "apl": 2,
+      "move": 6,
+      "save": 4,
+      "wounds": 7,
+      "pts": 1,
+      "beh": "ojo_preciso",
+      "w": [
+        {
+          "n": "Bláster de inducción",
+          "atk": 4,
+          "hit": 3,
+          "d": 4,
+          "cd": 4,
+          "wr": "Alcance 8\"",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Rifle de inducción (estacionario)",
+          "atk": 4,
+          "hit": 4,
+          "d": 4,
+          "cd": 5,
+          "wr": "Equilibrada, Pesada",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Rifle de inducción (móvil)",
+          "atk": 4,
+          "hit": 4,
+          "d": 4,
+          "cd": 5,
+          "wr": "",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Culata",
+          "atk": 3,
+          "hit": 5,
+          "d": 2,
+          "cd": 3,
+          "wr": "",
+          "m": true,
+          "r": null
+        }
+      ],
+      "opts": "Culata y bláster de inducción o rifle de inducción.",
+      "rule": "",
+      "kit": {
+        "b": [
+          [
+            "Culata",
+            "Bláster de inducción"
+          ],
+          [
+            "Culata",
+            "Rifle de inducción"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "nm_noble_orko",
+      "role": "NPO",
+      "name": "Noble",
+      "kw": [
+        "NPO",
+        "ORKO",
+        "NOBLE"
+      ],
+      "apl": 3,
+      "move": 6,
+      "save": 5,
+      "wounds": 16,
+      "pts": 3,
+      "beh": "batallador",
+      "w": [
+        {
+          "n": "Akribillador ezpecial",
+          "atk": 5,
+          "hit": 5,
+          "d": 3,
+          "cd": 4,
+          "wr": "Implacable",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Garra d'energía",
+          "atk": 4,
+          "hit": 3,
+          "d": 5,
+          "cd": 7,
+          "wr": "Brutal, Choque",
+          "m": true,
+          "r": null
+        },
+        {
+          "n": "Gran rebanadora",
+          "atk": 5,
+          "hit": 3,
+          "d": 5,
+          "cd": 6,
+          "wr": "",
+          "m": true,
+          "r": null
+        }
+      ],
+      "opts": "Akribillador ezpecial y gran rebanadora, o garra d'energía.",
+      "rule": "Noblez: 2 acciones de Combatir o 2 de Disparar en su activación.",
+      "kit": {
+        "b": [
+          [
+            "Akribillador ezpecial",
+            "Gran rebanadora"
+          ],
+          [
+            "Akribillador ezpecial",
+            "Garra d'energía"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "nm_xv26",
+      "role": "NPO",
+      "name": "Exoarmadura XV26 Sigilo",
+      "kw": [
+        "NPO",
+        "IMPERIO T'AU",
+        "EXOARMADURA XV26 SIGILO"
+      ],
+      "apl": 3,
+      "move": 6,
+      "save": 3,
+      "wounds": 12,
+      "pts": 3,
+      "beh": "ojo_preciso",
+      "w": [
+        {
+          "n": "Cañón rotativo (barrido)",
+          "atk": 4,
+          "hit": 4,
+          "d": 3,
+          "cd": 4,
+          "wr": "Incesante, Ráfaga 1\"",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Cañón rotativo (concentrado)",
+          "atk": 5,
+          "hit": 4,
+          "d": 3,
+          "cd": 4,
+          "wr": "Incesante",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Bláster fundidor (corto alcance)",
+          "atk": 4,
+          "hit": 4,
+          "d": 6,
+          "cd": 3,
+          "wr": "Alcance 6\", Devastadora 4, Penetración 2",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Bláster fundidor (largo alcance)",
+          "atk": 4,
+          "hit": 4,
+          "d": 4,
+          "cd": 5,
+          "wr": "Alcance 12\", Penetración 1",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Puños",
+          "atk": 3,
+          "hit": 4,
+          "d": 3,
+          "cd": 4,
+          "wr": "",
+          "m": true,
+          "r": null
+        }
+      ],
+      "opts": "Cañón rotativo y puños; 1 de cada 3 puede tener bláster fundidor.",
+      "rule": "Campo de ocultamiento: con orden de ocultarse no es visible para agentes enemigos a más de 3\" (prioridad sobre cualquier otra regla).",
+      "verify": false,
+      "kit": {
+        "b": [
+          [
+            "Cañón rotativo",
+            "Puños"
+          ]
+        ],
+        "n": 3,
+        "r": [
+          "Cañón rotativo"
+        ]
+      }
+    },
+    {
+      "id": "nm_termagante",
+      "role": "NPO",
+      "name": "Termagante",
+      "kw": [
+        "NPO",
+        "TIRÁNIDO",
+        "TERMAGANTE"
+      ],
+      "apl": 2,
+      "move": 6,
+      "save": 5,
+      "wounds": 7,
+      "pts": 1,
+      "beh": "ojo_preciso",
+      "w": [
+        {
+          "n": "Perforacarne",
+          "atk": 4,
+          "hit": 4,
+          "d": 3,
+          "cd": 4,
+          "wr": "",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Garras y dientes",
+          "atk": 3,
+          "hit": 4,
+          "d": 2,
+          "cd": 3,
+          "wr": "",
+          "m": true,
+          "r": null
+        }
+      ],
+      "opts": "",
+      "rule": ""
+    },
+    {
+      "id": "nm_hormagante",
+      "role": "NPO",
+      "name": "Hormagante",
+      "kw": [
+        "NPO",
+        "TIRÁNIDO",
+        "HORMAGANTE"
+      ],
+      "apl": 2,
+      "move": 6,
+      "save": 5,
+      "wounds": 7,
+      "pts": 1,
+      "beh": "peleon",
+      "w": [
+        {
+          "n": "Espolones afilados",
+          "atk": 4,
+          "hit": 3,
+          "d": 3,
+          "cd": 4,
+          "wr": "",
+          "m": true,
+          "r": null
+        }
+      ],
+      "opts": "",
+      "rule": ""
+    },
+    {
+      "id": "nm_genestealer",
+      "role": "NPO",
+      "name": "Genestealer",
+      "kw": [
+        "NPO",
+        "TIRÁNIDO",
+        "GENESTEALER"
+      ],
+      "apl": 2,
+      "move": 7,
+      "save": 5,
+      "wounds": 9,
+      "pts": 2,
+      "beh": "peleon",
+      "w": [
+        {
+          "n": "Garras aceradas",
+          "atk": 4,
+          "hit": 3,
+          "d": 4,
+          "cd": 5,
+          "wr": "Desgarradora",
+          "m": true,
+          "r": null
+        }
+      ],
+      "opts": "",
+      "rule": "Reflejos fulgurantes: cuando este ANJ combate, empeora en 1 el atributo Impactar de las armas del agente enemigo (hasta un mínimo de 5+)."
+    },
+    {
+      "id": "nm_sucesor",
+      "role": "NPO",
+      "name": "Sucesor Combatiente",
+      "kw": [
+        "NPO",
+        "LIGAS DE LOS VOTANN",
+        "SUCESOR COMBATIENTE"
+      ],
+      "apl": 2,
+      "move": 5,
+      "save": 3,
+      "wounds": 8,
+      "pts": 2,
+      "beh": "ojo_preciso",
+      "w": [
+        {
+          "n": "Rifle automático LasMAX",
+          "atk": 4,
+          "hit": 4,
+          "d": 4,
+          "cd": 5,
+          "wr": "Desgarradora, Incesante",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Puños",
+          "atk": 3,
+          "hit": 4,
+          "d": 2,
+          "cd": 3,
+          "wr": "",
+          "m": true,
+          "r": null
+        },
+        {
+          "n": "Bláster de iones",
+          "atk": 4,
+          "hit": 4,
+          "d": 3,
+          "cd": 4,
+          "wr": "Críticos de penetración 1",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Bólter modelo Autoch",
+          "atk": 4,
+          "hit": 4,
+          "d": 3,
+          "cd": 4,
+          "wr": "Certera 1",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Fusil lineal magnético",
+          "atk": 4,
+          "hit": 4,
+          "d": 4,
+          "cd": 2,
+          "wr": "Devastadora 3, Pesada (solo Correr), Penetración 2",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Haz de plasma EtaCarn",
+          "atk": 5,
+          "hit": 4,
+          "d": 4,
+          "cd": 5,
+          "wr": "Penetración 1",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Multicañón LasMAX (concentrado)",
+          "atk": 5,
+          "hit": 4,
+          "d": 4,
+          "cd": 5,
+          "wr": "Incesante, Pesada (solo Reposicionarse), Saturación",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Multicañón LasMAX (barrido)",
+          "atk": 4,
+          "hit": 4,
+          "d": 4,
+          "cd": 5,
+          "wr": "Incesante, Pesada (solo Reposicionarse), Saturación, Ráfaga 1\"",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Lanzamisiles L7 (área)",
+          "atk": 4,
+          "hit": 4,
+          "d": 3,
+          "cd": 5,
+          "wr": "Área 2\"",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Lanzamisiles L7 (concentrado)",
+          "atk": 4,
+          "hit": 4,
+          "d": 5,
+          "cd": 6,
+          "wr": "Penetración 1",
+          "m": false,
+          "r": null,
+          "star": true
+        }
+      ],
+      "opts": "Puños y fusil lineal magnético o bólter Autoch o bláster de iones; 1 de cada 3 puede tener un arma con asterisco.",
+      "rule": "Si tiene un fusil lineal magnético, realiza Correr antes de Reposicionarse.",
+      "verify": true,
+      "kit": {
+        "b": [
+          [
+            "Puños",
+            "Bólter modelo Autoch"
+          ],
+          [
+            "Puños",
+            "Bláster de iones"
+          ]
+        ],
+        "n": 5,
+        "r": [
+          "Bólter modelo Autoch",
+          "Bláster de iones"
+        ]
+      }
+    },
+    {
+      "id": "nm_bröckhyr",
+      "role": "NPO",
+      "name": "Estruendoso Bröckhyr",
+      "kw": [
+        "NPO",
+        "LIGAS DE LOS VOTANN",
+        "ESTRUENDOSO BRÖKHYR"
+      ],
+      "apl": 3,
+      "move": 5,
+      "save": 3,
+      "wounds": 12,
+      "pts": 3,
+      "beh": "ojo_preciso",
+      "w": [
+        {
+          "n": "Cañón bólter",
+          "atk": 5,
+          "hit": 4,
+          "d": 4,
+          "cd": 5,
+          "wr": "Críticos de penetración 1, Pesada (solo Reposicionarse)",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Cañón de descarga",
+          "atk": 4,
+          "hit": 4,
+          "d": 4,
+          "cd": 5,
+          "wr": "Área 2\", Pesada (solo Reposicionarse), Penetración 1, Aturdir",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Haz de conversión SP (corto alcance)",
+          "atk": 4,
+          "hit": 4,
+          "d": 4,
+          "cd": 5,
+          "wr": "Alcance 8\", Pesada (solo Reposicionarse)",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Haz de conversión SP (largo alcance)",
+          "atk": 5,
+          "hit": 4,
+          "d": 5,
+          "cd": 6,
+          "wr": "Distancia mínima 8\", Pesada (solo Reposicionarse), Penetración 1",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Puños",
+          "atk": 3,
+          "hit": 3,
+          "d": 3,
+          "cd": 4,
+          "wr": "",
+          "m": true,
+          "r": null
+        }
+      ],
+      "opts": "Puños y cañón bólter, o cañón de descarga, o haz de conversión SP.",
+      "rule": "Bröckhyr: puede realizar 2 acciones de Disparar durante cada una de sus activaciones, pero debe gastar 1 LPA adicional durante una de sus activaciones para la segunda acción. Distancia mínima 8\": solo los agentes a más de 8\" pueden ser blancos válidos.",
+      "verify": false,
+      "kit": {
+        "b": [
+          [
+            "Puños",
+            "Cañón bólter"
+          ],
+          [
+            "Puños",
+            "Cañón de descarga"
+          ],
+          [
+            "Puños",
+            "Haz de conversión SP"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "nm_guardian",
+      "role": "NPO",
+      "name": "Guardián",
+      "kw": [
+        "NPO",
+        "AELDARI",
+        "ASURYANI",
+        "GUARDIÁN"
+      ],
+      "apl": 2,
+      "move": 7,
+      "save": 4,
+      "wounds": 8,
+      "pts": 2,
+      "beh": "ojo_preciso|batallador(Pistola shuriken)",
+      "w": [
+        {
+          "n": "Catapulta shuriken",
+          "atk": 4,
+          "hit": 3,
+          "d": 3,
+          "cd": 4,
+          "wr": "Desgarradora",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Lanzallamas",
+          "atk": 4,
+          "hit": 2,
+          "d": 3,
+          "cd": 3,
+          "wr": "Alcance 8\", Ráfaga 2\", Saturación",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Pistola shuriken",
+          "atk": 4,
+          "hit": 3,
+          "d": 3,
+          "cd": 4,
+          "wr": "Alcance 8\", Desgarradora",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Rifle fundidor",
+          "atk": 4,
+          "hit": 3,
+          "d": 6,
+          "cd": 3,
+          "wr": "Alcance 6\", Devastadora 4, Penetración 2",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Arma de energía",
+          "atk": 4,
+          "hit": 3,
+          "d": 4,
+          "cd": 6,
+          "wr": "Letal 5+",
+          "m": true,
+          "r": null
+        },
+        {
+          "n": "Espada",
+          "atk": 4,
+          "hit": 3,
+          "d": 4,
+          "cd": 5,
+          "wr": "",
+          "m": true,
+          "r": null
+        },
+        {
+          "n": "Puños",
+          "atk": 3,
+          "hit": 3,
+          "d": 2,
+          "cd": 4,
+          "wr": "",
+          "m": true,
+          "r": null
+        }
+      ],
+      "opts": "Catapulta shuriken y puños, o pistola shuriken y espada. 1 de cada 5 puede tener lanzallamas o rifle fundidor y 1 de cada 5 arma de energía.",
+      "rule": "",
+      "verify": false,
+      "kit": {
+        "b": [
+          [
+            "Catapulta shuriken",
+            "Puños"
+          ],
+          [
+            "Pistola shuriken",
+            "Espada"
+          ]
+        ],
+        "n": 5,
+        "r": [
+          "Catapulta shuriken"
+        ],
+        "a": [
+          "Lanzallamas",
+          "Rifle fundidor"
+        ],
+        "n2": 5,
+        "r2": [
+          "Espada"
+        ],
+        "a2": [
+          "Arma de energía"
+        ]
+      }
+    },
+    {
+      "id": "nm_legionario",
+      "role": "NPO",
+      "name": "Legionario",
+      "kw": [
+        "NPO",
+        "CAOS",
+        "LEGIONARIO"
+      ],
+      "apl": 3,
+      "move": 6,
+      "save": 3,
+      "wounds": 14,
+      "pts": 3,
+      "beh": "batallador|guardian*",
+      "w": [
+        {
+          "n": "Bólter",
+          "atk": 4,
+          "hit": 3,
+          "d": 3,
+          "cd": 4,
+          "wr": "",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Bólter pesado (barrido)",
+          "atk": 4,
+          "hit": 3,
+          "d": 4,
+          "cd": 5,
+          "wr": "Pesada (solo Reposicionarse), Críticos de penetración 1, Ráfaga 1\"",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Bólter pesado (concentrado)",
+          "atk": 5,
+          "hit": 3,
+          "d": 4,
+          "cd": 5,
+          "wr": "Críticos de penetración 1, Pesada (solo Reposicionarse)",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Lanzallamas",
+          "atk": 4,
+          "hit": 2,
+          "d": 3,
+          "cd": 3,
+          "wr": "Alcance 8\", Ráfaga 2\", Saturación",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Lanzamisiles (frag)",
+          "atk": 4,
+          "hit": 3,
+          "d": 3,
+          "cd": 5,
+          "wr": "Área 2\", Pesada (solo Reposicionarse)",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Lanzamisiles (perforante)",
+          "atk": 4,
+          "hit": 3,
+          "d": 5,
+          "cd": 7,
+          "wr": "Penetración 1, Pesada (solo Reposicionarse)",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Pistola bólter",
+          "atk": 4,
+          "hit": 3,
+          "d": 3,
+          "cd": 4,
+          "wr": "Alcance 8\"",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Rifle de fusión",
+          "atk": 4,
+          "hit": 3,
+          "d": 6,
+          "cd": 3,
+          "wr": "Alcance 6\", Devastadora 4, Penetración 2",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Cañón ametrallador Segador (barrido)",
+          "atk": 4,
+          "hit": 3,
+          "d": 3,
+          "cd": 4,
+          "wr": "Castigadora, Incesante, Pesada (solo Reposicionarse), Ráfaga 2\"",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Cañón ametrallador Segador (concentrado)",
+          "atk": 5,
+          "hit": 3,
+          "d": 3,
+          "cd": 4,
+          "wr": "Castigadora, Incesante, Pesada (solo Reposicionarse)",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Rifle de plasma (normal)",
+          "atk": 4,
+          "hit": 3,
+          "d": 4,
+          "cd": 6,
+          "wr": "Penetración 1",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Rifle de plasma (sobrecarga)",
+          "atk": 4,
+          "hit": 3,
+          "d": 5,
+          "cd": 6,
+          "wr": "Letal 5+, Penetración 1, Sobrecalentamiento",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Espada sierra",
+          "atk": 5,
+          "hit": 3,
+          "d": 4,
+          "cd": 5,
+          "wr": "",
+          "m": true,
+          "r": null
+        },
+        {
+          "n": "Puños",
+          "atk": 4,
+          "hit": 3,
+          "d": 3,
+          "cd": 4,
+          "wr": "",
+          "m": true,
+          "r": null
+        }
+      ],
+      "opts": "Bólter y puños, o pistola bólter y espada sierra; 1 de cada 5 puede tener un arma con asterisco.",
+      "rule": "Astartes: 2 acciones de Combatir o 2 de Disparar por activación (si son 2 de Disparar, deben ser con la misma pistola bólter o bólter).",
+      "verify": false,
+      "kit": {
+        "b": [
+          [
+            "Bólter",
+            "Puños"
+          ],
+          [
+            "Pistola bólter",
+            "Espada sierra"
+          ]
+        ],
+        "n": 5,
+        "r": [
+          "Bólter",
+          "Pistola bólter"
+        ],
+        "t": "r"
+      }
+    },
+    {
+      "id": "nm_cadiano",
+      "role": "NPO",
+      "name": "Soldado de Choque de Cadia",
+      "kw": [
+        "NPO",
+        "IMPERIUM",
+        "ASTRA MILITARUM",
+        "SOLDADO DE CHOQUE DE CADIA"
+      ],
+      "apl": 2,
+      "move": 6,
+      "save": 5,
+      "wounds": 7,
+      "pts": 1,
+      "beh": "ojo_preciso",
+      "w": [
+        {
+          "n": "Lanzagranadas (frag)",
+          "atk": 4,
+          "hit": 4,
+          "d": 2,
+          "cd": 4,
+          "wr": "Área 2\"",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Lanzagranadas (perforante)",
+          "atk": 4,
+          "hit": 4,
+          "d": 4,
+          "cd": 5,
+          "wr": "Penetración 1",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Lanzallamas",
+          "atk": 4,
+          "hit": 2,
+          "d": 3,
+          "cd": 3,
+          "wr": "Alcance 8\", Ráfaga 2\", Saturación",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Rifle de fusión",
+          "atk": 4,
+          "hit": 4,
+          "d": 6,
+          "cd": 3,
+          "wr": "Alcance 6\", Devastadora 4, Penetración 2",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Rifle de plasma (normal)",
+          "atk": 4,
+          "hit": 4,
+          "d": 4,
+          "cd": 6,
+          "wr": "Penetración 1",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Rifle de plasma (sobrecarga)",
+          "atk": 4,
+          "hit": 4,
+          "d": 5,
+          "cd": 6,
+          "wr": "Letal 5+, Penetración 1, Sobrecalentamiento",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Rifle láser",
+          "atk": 4,
+          "hit": 4,
+          "d": 2,
+          "cd": 3,
+          "wr": "",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Bayoneta",
+          "atk": 3,
+          "hit": 4,
+          "d": 2,
+          "cd": 3,
+          "wr": "",
+          "m": true,
+          "r": null
+        }
+      ],
+      "opts": "Rifle láser y bayoneta; 1 de cada 3 puede tener un arma a distancia con asterisco en lugar del rifle láser.",
+      "rule": "",
+      "verify": false,
+      "kit": {
+        "b": [
+          [
+            "Rifle láser",
+            "Bayoneta"
+          ]
+        ],
+        "n": 3,
+        "r": [
+          "Rifle láser"
+        ],
+        "t": "r"
+      }
+    },
+    {
+      "id": "nm_hermana",
+      "role": "NPO",
+      "name": "Hermana de Batalla",
+      "kw": [
+        "NPO",
+        "IMPERIUM",
+        "ADEPTA SORORITAS",
+        "HERMANA DE BATALLA"
+      ],
+      "apl": 2,
+      "move": 6,
+      "save": 3,
+      "wounds": 9,
+      "pts": 2,
+      "beh": "ojo_preciso",
+      "w": [
+        {
+          "n": "Bólter",
+          "atk": 4,
+          "hit": 3,
+          "d": 3,
+          "cd": 4,
+          "wr": "",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Bólter pesado (barrido)",
+          "atk": 4,
+          "hit": 3,
+          "d": 4,
+          "cd": 5,
+          "wr": "Críticos de penetración 1, Pesada (solo Correr), Ráfaga 1\"",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Bólter pesado (concentrado)",
+          "atk": 5,
+          "hit": 3,
+          "d": 4,
+          "cd": 5,
+          "wr": "Críticos de penetración 1, Pesada (solo Correr)",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Bólter tormenta",
+          "atk": 4,
+          "hit": 3,
+          "d": 3,
+          "cd": 4,
+          "wr": "Incesante",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Cañón de fusión",
+          "atk": 4,
+          "hit": 3,
+          "d": 6,
+          "cd": 3,
+          "wr": "Devastadora 4, Penetración 2, Pesada (solo Correr)",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Lanzallamas",
+          "atk": 4,
+          "hit": 2,
+          "d": 3,
+          "cd": 3,
+          "wr": "Alcance 8\", Ráfaga 2\", Saturación",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Lanzallamas pesado",
+          "atk": 5,
+          "hit": 2,
+          "d": 3,
+          "cd": 3,
+          "wr": "Alcance 8\", Pesada (solo Correr), Saturación, Ráfaga 2\"",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Rifle de fusión",
+          "atk": 4,
+          "hit": 3,
+          "d": 6,
+          "cd": 3,
+          "wr": "Alcance 6\", Devastadora 4, Penetración 2",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Puños",
+          "atk": 3,
+          "hit": 3,
+          "d": 2,
+          "cd": 4,
+          "wr": "",
+          "m": true,
+          "r": null
+        }
+      ],
+      "opts": "Bólter y puños; 1 de cada 5 puede tener un arma a distancia con asterisco en lugar del bólter.",
+      "rule": "Si tiene un arma Pesada (solo Correr), realiza Correr antes de Reposicionarse.",
+      "verify": false,
+      "kit": {
+        "b": [
+          [
+            "Bólter",
+            "Puños"
+          ]
+        ],
+        "n": 5,
+        "r": [
+          "Bólter"
+        ],
+        "t": "r"
+      }
+    },
+    {
+      "id": "nm_kabalista",
+      "role": "NPO",
+      "name": "Guerrero Kabalista",
+      "kw": [
+        "NPO",
+        "AELDARI",
+        "DRUKHARI",
+        "GUERRERO KABALISTA"
+      ],
+      "apl": 2,
+      "move": 7,
+      "save": 4,
+      "wounds": 8,
+      "pts": 2,
+      "beh": "ojo_preciso",
+      "w": [
+        {
+          "n": "Bláster",
+          "atk": 4,
+          "hit": 3,
+          "d": 4,
+          "cd": 5,
+          "wr": "Penetración 2",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Cañón cristalino (barrido)",
+          "atk": 4,
+          "hit": 3,
+          "d": 3,
+          "cd": 5,
+          "wr": "Letal 5+, Pesada (solo Correr), Ráfaga 1\"",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Cañón cristalino (concentrado)",
+          "atk": 5,
+          "hit": 3,
+          "d": 3,
+          "cd": 5,
+          "wr": "Letal 5+, Pesada (solo Correr)",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Desgarrador",
+          "atk": 4,
+          "hit": 3,
+          "d": 4,
+          "cd": 5,
+          "wr": "Desgarradora, Ráfaga 2\"",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Lanza oscura",
+          "atk": 4,
+          "hit": 3,
+          "d": 6,
+          "cd": 7,
+          "wr": "Penetración 2, Pesada (solo Correr)",
+          "m": false,
+          "r": null,
+          "star": true
+        },
+        {
+          "n": "Rifle cristalino",
+          "atk": 4,
+          "hit": 3,
+          "d": 2,
+          "cd": 4,
+          "wr": "Letal 5+",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Cuchillas por doquier",
+          "atk": 3,
+          "hit": 3,
+          "d": 3,
+          "cd": 4,
+          "wr": "",
+          "m": true,
+          "r": null
+        }
+      ],
+      "opts": "Rifle cristalino y cuchillas por doquier; 1 de cada 5 puede tener un arma con asterisco en lugar del rifle cristalino.",
+      "rule": "Si tiene un arma Pesada (solo Correr), realiza Correr antes de Reposicionarse.",
+      "verify": false,
+      "kit": {
+        "b": [
+          [
+            "Rifle cristalino",
+            "Cuchillas por doquier"
+          ]
+        ],
+        "n": 5,
+        "r": [
+          "Rifle cristalino"
+        ],
+        "t": "r"
+      }
+    },
+    {
+      "id": "nm_ambullarva",
+      "role": "NPO",
+      "name": "Infestación de Ambullarvas",
+      "kw": [
+        "NPO",
+        "TIRÁNIDO",
+        "AMBULLARVAS"
+      ],
+      "apl": 1,
+      "move": 4,
+      "save": 5,
+      "wounds": 5,
+      "pts": 0,
+      "beh": "peleon",
+      "w": [
+        {
+          "n": "Fauces feroces",
+          "atk": 3,
+          "hit": 4,
+          "d": 3,
+          "cd": 4,
+          "wr": "Desgarradora",
+          "m": true,
+          "r": null
+        }
+      ],
+      "opts": "",
+      "rule": "Pequeño: con orden de ocultarse y a cubierto no se le puede elegir como blanco válido salvo a 2\" o menos."
+    }
+  ],
+  "nemesis": [
+    {
+      "id": "nm_ambull",
+      "role": "NEMESIS",
+      "name": "Ambull",
+      "kw": [
+        "NPO",
+        "NÉMESIS",
+        "AMBULL",
+        "TIRÁNIDO"
+      ],
+      "control": 4,
+      "move": 6,
+      "save": 4,
+      "wounds": 35,
+      "size": "S",
+      "pts": 50,
+      "beh": "peleon",
+      "w": [
+        {
+          "n": "Garras enormes",
+          "atk": 5,
+          "hit": 3,
+          "d": 4,
+          "cd": 5,
+          "wr": "Brutal, Desgarradora, Incesante",
+          "m": true,
+          "r": null
+        }
+      ],
+      "basic": [
+        "Protección adicional",
+        "Grandote"
+      ],
+      "rule": "Orugas irradiadas simbióticas: siempre que se active, recupera heridas perdidas igual a su LPA+1 (su LPA lo determina la carta de activación de ANJ)."
+    },
+    {
+      "id": "nm_archivista",
+      "role": "NEMESIS",
+      "name": "El Archivista",
+      "kw": [
+        "NPO",
+        "NÉMESIS",
+        "ARCHIVISTA"
+      ],
+      "control": 4,
+      "move": 6,
+      "save": 4,
+      "wounds": 35,
+      "size": "S",
+      "pts": 50,
+      "beh": "archivista",
+      "w": [
+        {
+          "n": "Desatomizador",
+          "atk": 5,
+          "hit": 4,
+          "d": 4,
+          "cd": 2,
+          "wr": "Alcance 8\", Devastadora 3, Penetración 2",
+          "m": false,
+          "r": null
+        },
+        {
+          "n": "Guante erradicador",
+          "atk": 4,
+          "hit": 4,
+          "d": 5,
+          "cd": 7,
+          "wr": "Aturdidora, Brutal, Choque",
+          "m": true,
+          "r": null
+        }
+      ],
+      "basic": [
+        "Protección adicional",
+        "Grandote"
+      ],
+      "rule": "Escudo de xenotecnología: siempre que un agente dispare contra este ANJ ignora la regla de armas Penetración; los Daños normales y críticos de 4 o más infligen 1 daño menos. Puede beneficiarse de Protección adicional aunque esté lesionado (prioridad sobre esa regla)."
+    }
+  ],
+  "behaviours": {
+    "batallador": {
+      "n": "Batallador",
+      "txt": "Se mueve hacia el enemigo para combatir contra él, pero buscará cobertura de camino y disparará si es necesario. Si es NÉMESIS o va a realizar Combatir/Cargar/Disparar: orden de Trabarse; si no, de Ocultarse.",
+      "order": [
+        "combatir",
+        "cargar_corto",
+        "reposicionar_cob",
+        "disparar",
+        "correr_cob"
+      ]
+    },
+    "ojo_preciso": {
+      "n": "Ojo preciso",
+      "txt": "Posición ideal para disparar al enemigo. Si es NÉMESIS o va a Disparar: orden de Trabarse; si no, de Ocultarse.",
+      "order": [
+        "retroceder",
+        "disparar",
+        "reposicionar_cob",
+        "correr_cob"
+      ]
+    },
+    "peleon": {
+      "n": "Peleón",
+      "txt": "Va hacia el enemigo para combatir; busca cobertura de camino pero sin perder tiempo. Si es NÉMESIS o va a Combatir/Cargar: Trabarse; si no, Ocultarse.",
+      "order": [
+        "combatir",
+        "cargar_cercano",
+        "reposicionar_cob",
+        "correr_cob"
+      ]
+    },
+    "guardian": {
+      "n": "Guardián",
+      "txt": "Dispara contra el enemigo (o combate si es necesario) para proteger objetivos. Si va a Combatir/Cargar/Disparar: Trabarse; si no puede, Ocultarse.",
+      "order": [
+        "combatir",
+        "disparar",
+        "cargar_corto",
+        "reposicionar_objetivo",
+        "correr_objetivo"
+      ]
+    },
+    "archivista": {
+      "n": "Archivista",
+      "txt": "Disparará prioritariamente contra el agente jugador más cercano si es necesario.",
+      "order": [
+        "combatir",
+        "disparar_cercano",
+        "cargar_10",
+        "reposicionar_cob",
+        "disparar_anj",
+        "correr_cercano"
+      ]
+    }
+  },
+  "traits": {
+    "acorazado": [
+      "Acorazado",
+      "Siempre que un agente dispare contra este agente con un arma con Daño normal de 3 o menos, mejora en 1 el atributo Salvación de este agente."
+    ],
+    "acometida": [
+      "Acometida",
+      "Siempre que este agente realice la acción de Cargar durante esa activación, sus armas de combate tienen las reglas de armas Severa y Choque hasta el final de esa activación."
+    ],
+    "peleon": [
+      "Peleón",
+      "(comportamiento)"
+    ],
+    "furia": [
+      "Furia",
+      "Las armas de combate tienen la regla Incesante. Si el arma ya la tiene, tiene además Implacable. Reduce en 1 el atributo Impactar de las armas a distancia."
+    ],
+    "letal_corto": [
+      "Letal a corto alcance",
+      "Siempre que dispare contra el blanco válido más cercano a 8\" o menos, sus armas a distancia tienen la regla de armas Letal 5+ (si ya la tienen, tienen también Severa)."
+    ],
+    "concentrarse": [
+      "Concentrarse en un blanco",
+      "Siempre que dispare durante su activación, si no ha realizado ninguna acción durante esa activación, sus armas a distancia tienen la regla Castigadora."
+    ],
+    "duelista": [
+      "Duelista",
+      "Cuando combate o contraataca puedes resolver 1 de tus éxitos antes del orden normal; si lo haces, ese éxito debe usarse para bloquear."
+    ],
+    "impacto": [
+      "Impacto aplastante",
+      "Cuando termine de moverse durante la acción de Cargar, puedes infligir 1D3+3 daños a un agente enemigo en su zona de control."
+    ],
+    "implacable": [
+      "Implacable",
+      "Ignora cualquier cambio a los atributos de las armas de este agente por estar lesionado."
+    ],
+    "recio": [
+      "Recio",
+      "Cuando un dado de ataque inflige 4 o más daños a este agente, tira 1D6: con 5+, resta 1 a ese daño infligido."
+    ],
+    "tenaz": [
+      "Tenaz",
+      "Ignora cualquier cambio al atributo Movimiento de este agente por estar lesionado."
+    ],
+    "ocultacion": [
+      "Ocultación",
+      "Cuando un agente dispare contra este agente desde más de 8\" de distancia, no puede repetir sus dados de ataque."
+    ],
+    "blindado": [
+      "Blindado",
+      "1 vez por batalla, cuando un dado de ataque inflija daño a este agente, puedes ignorar ese daño infligido."
+    ],
+    "muerte": [
+      "Muerte violenta",
+      "Si este agente queda incapacitado, antes de retirarlo infligir 1D6+1 daños a cada otro agente a 3\" o menos (salvo agentes con terreno Pesado completamente interpuesto)."
+    ]
+  },
+  "alliances": {
+    "aeldari": [
+      "Superioridad arrogante",
+      "Siempre que un ANJ AELDARI amigo dispare o combata (o un agente NÉMESIS AELDARI), si contra un agente enemigo apostado se sacan dos o más tiradas fallidas, una de ellas puede descartarse para repetir otra."
+    ],
+    "caos": [
+      "Que arda la galaxia",
+      "Siempre que un ANJ CAOS o un agente NÉMESIS CAOS amigo esté completamente en territorio enemigo, sus armas tienen la regla Equilibrada."
+    ],
+    "imperium": [
+      "Defensores del Imperium",
+      "Siempre que un agente dispare contra un ANJ IMPERIUM o un agente NÉMESIS IMPERIUM, si ese agente está completamente en su territorio, 1 de sus dados de defensa puede guardarse como éxito normal sin tirarlo (además de una salvación por cobertura, si procede)."
+    ],
+    "votann": [
+      "Hay que hacerse con todo",
+      "Siempre que un ANJ LIGAS DE LOS VOTANN o agente NÉMESIS amigo dispare o combata contra un agente enemigo que dispute un marcador de objetivo o un área de aniquilación que determine la victoria, las armas de ese agente tienen la regla Equilibrada."
+    ],
+    "necron": [
+      "Metal viviente",
+      "En el paso de preparación de cada fase de estrategia, cada ANJ NECRÓN y agente NÉMESIS NECRÓN amigo recupera hasta 1D3+1 heridas perdidas (tirada por separado para cada uno)."
+    ],
+    "ork": [
+      "¡Waaagh!",
+      "Siempre que un ANJ ORKO combata, sus armas tienen la regla Equilibrada. Empeora en 1 el atributo Impactar de las armas a distancia de los agentes ORKO NÉMESIS, pero sus armas de combate ganan la regla Severa."
+    ],
+    "tau": [
+      "Fuego de apoyo",
+      "Siempre que un ANJ IMPERIO T'AU esté a 3\" o menos de otro, sus armas a distancia tienen Precisión 1. Si es un agente NÉMESIS amigo a 3\" o menos de otro agente IMPERIO T'AU amigo, las armas de NÉMESIS tienen Precisión 1."
+    ],
+    "tiranido": [
+      "Voluntad de la Mente Colmena",
+      "Ignora los cambios a los atributos de los ANJ TIRÁNIDO y a los agentes NÉMESIS TIRÁNIDO amigos por haber resultado heridos (incluyendo los atributos de sus armas)."
+    ]
+  },
+  "sizes": {
+    "S": {
+      "control": 4,
+      "move": 6,
+      "save": 4,
+      "wounds": 35,
+      "weapons": 2
+    },
+    "M": {
+      "control": 5,
+      "move": 6,
+      "save": 4,
+      "wounds": 50,
+      "weapons": 2
+    },
+    "L": {
+      "control": 6,
+      "move": 6,
+      "save": 4,
+      "wounds": 75,
+      "weapons": 3
+    }
+  },
+  "teamSel": {
+    "5": [
+      4,
+      3,
+      2
+    ],
+    "6": [
+      4,
+      3,
+      2
+    ],
+    "7": [
+      5,
+      4,
+      2
+    ],
+    "8": [
+      5,
+      4,
+      3
+    ],
+    "9": [
+      6,
+      5,
+      3
+    ],
+    "10": [
+      7,
+      5,
+      3
+    ],
+    "11": [
+      7,
+      6,
+      4
+    ],
+    "12": [
+      8,
+      6,
+      4
+    ],
+    "13": [
+      9,
+      7,
+      4
+    ],
+    "14": [
+      9,
+      7,
+      5
+    ]
+  },
+  "core": {
+    "extra_def": "Protección adicional: siempre que un agente dispare contra este agente, reúne y tira 1 dado de defensa adicional, salvo si está lesionado.",
+    "grandote": [
+      "No puede colocarse en terreno a más de 2\" del suelo de la zona de aniquilación.",
+      "Siempre que realice Combatir, los requisitos de distancia sobre su zona de control pueden cambiarse a 1\" en horizontal hasta 4\" en vertical.",
+      "Puede atravesar a otros agentes (salvo NÉMESIS).",
+      "Ignora todos los cambios al LPA de este agente; si es jugador, los cambios a su zona no afectan: puede gastar hasta 5 PA por punto de inflexión."
+    ],
+    "grandote_terreno": "Siempre que este agente termine un movimiento en un elemento de terreno de menos de 2\" de altura, retira temporalmente ese elemento y lo devuelve al abandonar la ubicación; si es equipo, retíralo en su lugar.",
+    "gigantesco": [
+      "En la fase de tiroteo no puedes elegir Ocultarse al determinar la orden de este agente.",
+      "Nunca está cubierto ni ofuscado por terreno Ligero ni partes de terreno más bajas de 3\", ni por terreno que no esté completamente interpuesto.",
+      "Siempre que otro agente realice Disparar, estar en la zona de control de otros agentes no impide que este sea elegido como blanco válido.",
+      "Puede mover a través de partes de terreno de menos de 2\" de altura. No puede mover a través de terreno accesible (salvo Escotillas) a menos que dicho terreno también tenga menos de 2\" de altura."
+    ]
+  },
+  "jointMissions": {
+    "m1": {
+      "name": "Erosión de poder",
+      "pts": {
+        "N": 15,
+        "S": 11,
+        "M": 8,
+        "L": 5
+      },
+      "cards": [
+        [
+          1,
+          8,
+          "anj"
+        ],
+        [
+          9,
+          10,
+          "refuerzo1"
+        ],
+        [
+          11,
+          13,
+          "nemesis3"
+        ]
+      ]
+    },
+    "m2": {
+      "name": "Contramaniobra",
+      "pts": {
+        "N": 14,
+        "S": 10,
+        "M": 8,
+        "L": 5
+      },
+      "cards": [
+        [
+          1,
+          8,
+          "anj"
+        ],
+        [
+          9,
+          9,
+          "alt"
+        ],
+        [
+          10,
+          10,
+          "refuerzo1"
+        ],
+        [
+          11,
+          13,
+          "nemesis3"
+        ]
+      ]
+    },
+    "m3": {
+      "name": "Emboscada",
+      "pts": {
+        "N": 13,
+        "S": 9,
+        "M": 7,
+        "L": 5
+      },
+      "cards": [
+        [
+          1,
+          7,
+          "anj"
+        ],
+        [
+          8,
+          9,
+          "refuerzo1/2"
+        ],
+        [
+          10,
+          11,
+          "nemesis2"
+        ],
+        [
+          12,
+          13,
+          "nemesis3"
+        ]
+      ]
+    },
+    "m4": {
+      "name": "Asalto al reducto",
+      "pts": {
+        "N": 13,
+        "S": 9,
+        "M": 7,
+        "L": 5
+      },
+      "cards": [
+        [
+          1,
+          7,
+          "anj"
+        ],
+        [
+          8,
+          9,
+          "refuerzo1"
+        ],
+        [
+          10,
+          11,
+          "nemesis2"
+        ],
+        [
+          12,
+          13,
+          "nemesis3"
+        ]
+      ]
+    }
+  },
+  "nemopsStrategy": {
+    "same": 1,
+    "1+2": 4,
+    "2+3": 2,
+    "1+3": 3
+  },
+  "notes": "Transcrito de agentes_nemesis_cartas.pdf y Nemesis Operatives Dossier (pp 14-55). Los ANJ con verify=true tienen filas de armas leídas de un escaneo parcial: revisar contra las cartas físicas.",
+  "ambull": {
+    "deck": {
+      "1-4": "activar BOREWYRM (o uno gastado si no hay listos)",
+      "5": "Invasión de orugas radiactivas: 1D6 por agente (salvo Ambull/Borewyrm) en el suelo; si < Salvación, daño = mitad del resultado (redondeo arriba)",
+      "6": "Pulso de energía: 1D6 daños a cada agente (salvo Ambull/Borewyrm) a 6\" del Ambull",
+      "7": "Activar Ambull con LPA 2 (máx 2 veces/PI, máx 12\" de movimiento/PI)",
+      "8": "Ambull enfurecido: LPA 3 y puede hacer dos Combatir (máx 2 veces/PI, 12\")"
+    },
+    "intruder": {
+      "9-10": "sin efecto",
+      "11-12": "desplegar 1 BOREWYRM listo con orden Ocultarse",
+      "13": "desplegar el AMBULL listo con orden Ocultarse"
+    },
+    "borewyrm": {
+      "apl": 1,
+      "move": 4,
+      "save": 5,
+      "wounds": 5,
+      "w": [
+        {
+          "n": "Fauces feroces",
+          "atk": 3,
+          "hit": 4,
+          "d": 3,
+          "cd": 4,
+          "wr": "Desgarradora",
+          "m": true,
+          "r": null
+        }
+      ],
+      "beh": "peleon"
+    },
+    "missions": {
+      "1": "El enemigo oculto (3 bandos: jugadores, centinelas 6+10 pts y lado Ambull+2 Borewyrm en reserva; VP: marcadores retirados / un tercio de operativos incapacitados)",
+      "2": "Generatorio en descomposición (PvP; NPO activan al final de la secuencia; Atraído por la energía; Emisiones nauseabundas; Sifonar energía)"
+    }
+  },
+  "archivist": {
+    "deck_m1": {
+      "1-9": "activar ANJ no Archivista",
+      "10-11": "Archivista LPA2, máx 2/PI, máx 9\"/PI",
+      "12-13": "Archivista LPA3, máx 2/PI, 9\""
+    },
+    "deck_m2": {
+      "1-8": "saltar",
+      "9-11": "Archivista LPA2, 12\"",
+      "12-13": "Archivista LPA3, 12\""
+    },
+    "missions": {
+      "1": "Traición (Tomb World; 15 pts ANJ + D3+2 por refuerzo; Camino del Archivista; Bóveda xenotecnológica; Traición D6 acumulativo: 7+ o PI5 pasa a ANJ)",
+      "2": "Negociación (Volkus; puja con dados de Negociación; extracción de Infocores)"
+    }
+  },
+  "missionsNemOps": {
+    "1": "Ganancias territoriales (asegurar marcadores, +2/+1 PV por Némesis rival incapacitado/lesionado)",
+    "2": "Ataque por el flanco (flancos izquierda/derecha por LPA/Control)",
+    "3": "Contraofensiva (cuartos del tablero y línea de objetivo)",
+    "4": "Quebrar las defensas (Demoler; sitiado)"
+  },
+  "jointMissionsText": {
+    "1": "Erosión de poder (Sabotear nexo)",
+    "2": "Contramaniobra (Reserva, Flanquear)",
+    "3": "Emboscada (Coordinar extracción, Ventaja de emboscada: Precisa 1)",
+    "4": "Asalto al reducto (ataque/defensa, Proteger rutas de munición)"
+  }
+}
